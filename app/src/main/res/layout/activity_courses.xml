@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_app"
+    tools:context=".Courses">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courses"
+                android:height="100dp"
+                android:textSize="40sp"
+                android:layout_marginBottom="20dp"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="go"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="B.Tech." />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="go"
+                android:layout_marginBottom="20dp"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:text="M.Tech." />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="go"
+                android:layout_marginBottom="20dp"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:text="BBA" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="go"
+                android:layout_marginBottom="20dp"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:text="BCA" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="go"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="MCA" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="go"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="M.Sc." />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="go"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="MBA" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="go"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="LLM" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="go"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Ph.D." />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

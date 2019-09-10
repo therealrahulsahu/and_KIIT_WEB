@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_app"
+    tools:context=".Department">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:height="100dp"
+                android:textSize="40sp"
+                android:layout_marginBottom="20dp"
+                android:text="Departments"
+                />
+
+            <Button
+                android:id="@+id/cse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cse"
+                android:layout_marginBottom="20dp"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:text="Computer Science and Engineering" />
+
+            <Button
+                android:id="@+id/civil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="civil"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Civil Engineering" />
+
+            <Button
+                android:id="@+id/me"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="me"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Mechanical Engineering" />
+
+            <Button
+                android:id="@+id/comapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="capp"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Computer Application" />
+
+            <Button
+                android:id="@+id/ele"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="ele"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Electrical Engineering" />
+
+            <Button
+                android:id="@+id/che"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="che"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Chemical Engineering" />
+
+            <Button
+                android:id="@+id/arch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="arc"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Architecture and Planning" />
+
+            <Button
+                android:id="@+id/tronics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="tronics"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Electronics Engineering" />
+
+            <Button
+                android:id="@+id/bio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="bio"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Biotechnology" />
+
+            <Button
+                android:id="@+id/appsci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="appsci"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Applied Science" />
+
+            <Button
+                android:id="@+id/poly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="poly"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="Polytecniqueue" />
+
+            <Button
+                android:id="@+id/kiti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="kiti"
+                android:height="100dp"
+                android:background="@color/myColor"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="KITI" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
